@@ -72,3 +72,15 @@ h2, h4, h5 {
   font-weight: bold;
   padding: 10px;
 }
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+}
+.location-container {
+  display: flex;
+  justify-content: center;
+}
+.address {
+  width: 300px;
+  background-color: black;
+}
