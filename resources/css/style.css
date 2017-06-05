@@ -47,3 +47,26 @@ h2, h4, h5 {
   margin: 0;
   padding: 10px;
 }
+.items {
+  display: flex;
+}
+.berry-blitz img {
+  height: 200px;
+  width: 300px;
+}
+.spiced-rum img {
+  height: 200px;
+  width: 300px;
+}
+.donut img {
+  height: 200px;
+  width: 300px;
+}
+.myrtly img {
+  height: 200px;
+  width: 300px;
+}
+.bedford img {
+  height: 200px;
+  width: 300px;
+}
