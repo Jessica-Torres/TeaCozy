@@ -47,26 +47,28 @@ h2, h4, h5 {
   margin: 0;
   padding: 10px;
 }
-.items {
+.store {
+  margin: auto;
+  padding-top: 70px;
+  width: 1000px;
+}
+.item-container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.berry-blitz img {
+.item {
+  display: block;
+  padding: 5px;
+}
+.item img {
   height: 200px;
   width: 300px;
+  margin: 10px;
+  display: block;
 }
-.spiced-rum img {
-  height: 200px;
-  width: 300px;
-}
-.donut img {
-  height: 200px;
-  width: 300px;
-}
-.myrtly img {
-  height: 200px;
-  width: 300px;
-}
-.bedford img {
-  height: 200px;
-  width: 300px;
+.item span {
+  display: block;
+  font-weight: bold;
+  padding: 10px;
 }
