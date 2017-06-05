@@ -24,8 +24,26 @@ header {
   height: 50px;
 }
 .content {
-  display: flex;
   z-index: 5;
   margin: 0 auto 200px auto;
   padding-top: 69px;
+}
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+.mission-title {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2, h4, h5 {
+  margin: 0;
+  padding: 10px;
 }
